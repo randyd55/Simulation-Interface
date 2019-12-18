@@ -1,0 +1,10 @@
+navgoal/addrobotwindow.cpp
+navgoal/addrobotwindow.h
+navgoal/bin/navgoal
+navgoal/main.cpp
+navgoal/mainwindow.cpp
+navgoal/mainwindow.h
+navgoal/mainwindow.ui
+navgoal/navgoal.pro
+navgoal/robot.cpp
+navgoal/robot.h
