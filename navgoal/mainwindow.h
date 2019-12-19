@@ -4,7 +4,8 @@
 #include <QMainWindow>
 #include <QLineEdit>
 #include <vector>
-#include <robot.h>
+#include "robot.h"
+#include <QComboBox>
 namespace Ui {
 class MainWindow;
 }
@@ -23,7 +24,8 @@ private:
     Ui::MainWindow *ui;
     std::vector<Robot> robots;
     std::string world_file;
-    std::string occupancy_dir;
+    std::string occupancy_file;
+    std::string tb_model;
     QWidget *display;
     //QVBoxLayout display;
 
@@ -32,7 +34,9 @@ private slots:
     void displayAddRobot();
     void addWorldFile();
     void addOccupancyMap();
+    void selectTBModel(QString);
     void outputTextFile();
+    void runSimulation();
 };
 
 #endif // MAINWINDOW_H

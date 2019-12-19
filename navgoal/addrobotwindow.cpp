@@ -1,8 +1,8 @@
 ﻿#include "addrobotwindow.h"
+#include "mainwindow.h"
 #include <QLineEdit>
 #include <QVBoxLayout>
 #include <QPushButton>
-#include <mainwindow.h>
 #include <iostream>
 AddRobotWindow::AddRobotWindow(QWidget *parent) : QWidget(parent)
 {

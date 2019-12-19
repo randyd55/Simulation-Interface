@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "../navgoal/mainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
